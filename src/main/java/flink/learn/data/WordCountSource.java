@@ -3,7 +3,6 @@ package flink.learn.data;
 import org.apache.flink.streaming.api.functions.source.FromIteratorFunction;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Iterator;
 
 public class WordCountSource extends FromIteratorFunction<String> implements Serializable {
