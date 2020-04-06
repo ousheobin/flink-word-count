@@ -1,7 +1,7 @@
-package flink.learn;
+package flink.learn.bounded;
 
-import flink.learn.data.WordCountSink;
-import flink.learn.data.WordCountSource;
+import flink.learn.bounded.data.WordCountSink;
+import flink.learn.bounded.data.WordCountSource;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

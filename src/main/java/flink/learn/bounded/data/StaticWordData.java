@@ -1,8 +1,4 @@
-package flink.learn.data;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package flink.learn.bounded.data;
 
 public class StaticWordData {
 

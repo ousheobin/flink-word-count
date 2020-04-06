@@ -101,7 +101,7 @@
                             </filters>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>flink.learn.WordCountJob</mainClass>
+                                    <mainClass>flink.learn.bounded.WordCountJob</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
